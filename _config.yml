@@ -1,0 +1,25 @@
+title:              Taha's Blog
+email:              tahaicoz26@gmail.com
+description:        Taha's experience blog
+author:             Start Bootstrap
+baseurl:            "/tahaicoz"
+url:                "https://tahaicoz.github.io"
+
+# Social Profiles
+twitter_username:   tahtaakafaa
+github_username:    Tahaicozz
+facebook_username:  Taha Içöz
+instagram_username: tahaicoz
+linkedin_username: Tah İcoz
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
